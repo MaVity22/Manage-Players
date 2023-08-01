@@ -3,7 +3,7 @@ const app = express();
 const port = 8000;
 const cors = require("cors");
 
-//Config es la conexion con la base
+//Config es la conexion con la base 
 require("./server/config/mongoose.config");
 
 app
